@@ -1,0 +1,37 @@
+.title {
+    font-size: 30px;
+    color: #00BDF8;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+textarea {
+    border: solid #00BDF8;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+}
+
+.button-area {
+    display: flex;
+    flex-flow: column;
+}
+
+.buttons {
+    flex-flow: row;
+    text-align: center;
+}
+
+button {
+    color: black;
+    background-color: #00BDF8;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: solid cyan 1px;
+    color: white;
+}
